@@ -18,7 +18,8 @@ return (NULL);
 }
 rootptr->n = value;
 rootptr->parent = parent;
-rootptr->left = rootptr->right = NULL;
+rootptr->left =  NULL;
+rootptr->right = NULL;
 free(rootptr);
 return (rootptr);
 
